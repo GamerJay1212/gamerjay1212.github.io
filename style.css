@@ -1,21 +1,8 @@
 .topnav {
-    background-color: lightgray;
-    padding: 20;
-    border: 13 white;
-    width: 200;
-    height: 25;
-    color: white
-}
-.topnav a:hover {
-    background-color: darkgray;
-    color: black;
-    text-align: center;
-    ;
+  overflow:hidden;
+    background-color: gray;  
 }
 .topnav a {
-    padding: 20;
+    background-color: darkgrey;
     color: white;
-
 }
-
-
