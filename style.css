@@ -1,15 +1,16 @@
 .topnav {
     background-color: lightgray;
-    padding: 12;
+    padding: 20;
     border: 13 white;
     width: 200;
-    height: 20;
+    height: 25;
     color: white
 }
 .topnav a:hover {
     background-color: darkgray;
     color: black;
     text-align: center;
+    ;
 }
 .topnav a {
     padding: 20;
