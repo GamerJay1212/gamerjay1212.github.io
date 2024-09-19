@@ -3,6 +3,9 @@
     background-color: gray;  
 }
 .topnav a {
-    background-color: darkgrey;
-    color: white;
+    color: black;
+}
+.topnav a:hover {
+background-color: darkgray;
+
 }
