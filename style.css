@@ -9,3 +9,15 @@
 background-color: darkgray;
 
 }
+@keyframes test {
+  0% {background-color: red;}
+  50% {background-color: blue;}
+  100% {background-color: green;}
+}
+world div {
+  width: 200;
+  height: auto;
+  background-color: aqua;
+  animation-name: test;
+  animation-duration: 4s;
+}

@@ -1,14 +1,23 @@
 .topnav {
-    background-color: black;
-    padding: 12;
-    border: 13;
-    width: 200;
-    height: 20;
-    color: white
+  overflow:hidden;
+    background-color: gray;  
 }
-.topnav a:hover {
-    background-color: aliceblue;
+.topnav a {
     color: black;
 }
+.topnav a:hover {
+background-color: darkgray;
 
-
+}
+@keyframes test {
+  0% {background-color: red;}
+  50% {background-color: blue;}
+  100% {background-color: green;}
+}
+world div {
+  width: 200;
+  height: auto;
+  background-color: aqua;
+  animation-name: test;
+  animation-duration: 4s;
+}
